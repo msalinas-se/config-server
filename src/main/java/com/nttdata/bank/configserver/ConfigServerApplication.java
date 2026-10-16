@@ -4,9 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
-/**
- * Entry point of the configuration server that exposes the externalized configuration of every banking microservice from a Git repository.
- */
+/** Configuration server for the banking microservices. */
 @SpringBootApplication
 @EnableConfigServer
 public class ConfigServerApplication {
